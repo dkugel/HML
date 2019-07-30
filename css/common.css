@@ -324,14 +324,14 @@ body {
 .main-slider h1{
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height:1.8em;
-	font-size:52px;
+	font-size:32px;
 }
 
 .main-slider h2{
 	color: #fff;
 	font-family: 'Roboto Condensed', sans-serif;
 	line-height:1.4em;
-	font-size:48px;
+	font-size:28px;
 }
 
 .main-slider h3{
@@ -3912,8 +3912,7 @@ Icons style
 
 ***/
 
-
-
+.escondido{display: none;}
 
 
 

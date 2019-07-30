@@ -85,21 +85,22 @@
                 <div class="section-head">                    
                     <h1 class="header-text">Envíanos un mensaje</h1>
                 </div>
-                <form action="#" class="quick-quote-form">
+                <form action="enviar.php" method="POST" class="quick-quote-form">
+                    <input type="text" name="name" placeholder="No llenar, es para evitar spam" class="escondido">
                     <div class="pl-xs-0 pr-xs-0 col-sm-6 pr-0 pl-0 pr-sm-10">
-                        <input type="text" class="quick-quote-name" placeholder="Nombre">
+                        <input type="text" class="quick-quote-name" placeholder="Nombre" name="name2" required>
                     </div>
                     <div class="pl-xs-0 pr-xs-0 col-sm-6 pr-0 pr-sm-10">
-                        <input type="email" class="quick-quote-name" placeholder="Email">
+                        <input type="email" class="quick-quote-name" placeholder="Email" name="email" required>
                     </div>
                     <div class="pl-xs-0 pr-xs-0 col-sm-6 pl-0 pr-0 pl-sm-10">
-                        <input type="text" class="quick-quote-sub" placeholder="Teléfono">
+                        <input type="text" class="quick-quote-sub" name="phone" placeholder="Teléfono" required>
                     </div>
                     <div class="pl-xs-0 pr-xs-0 col-sm-6 pr-0 pl-sm-10">
-                        <input type="text" class="quick-quote-sub" placeholder="Asunto">
+                        <input type="text" name="topic" class="quick-quote-sub" placeholder="Asunto">
                     </div>
                     <div class="pl-xs-0 pt-xs-20 pr-xs-0 pl-0 col-sm-12 pr-0 pl-sm-10">
-                        <textarea class="quick-quote-message" placeholder="Mensaje"></textarea>
+                        <textarea class="quick-quote-message" placeholder="Mensaje" name="message" required></textarea>
                     </div>
                     <div class="clearfix"></div>
                     <button type="submit" class="default-btn db mt-40">Enviar mensaje</button>
@@ -117,7 +118,7 @@
                         <img src='img/logo-1.png' alt=''>
                         <p class='text pt-40 lh-10 center'>Tel:  <span class='ff-b fz-16 c-3'>+57 310 8011048</span></p>
                         <p class='text pt-20 lh-10 center'>Email <span class='ff-b fz-16 c-3'>info@hmlasesores.com</span></p>
-                        <p class='text pt-33'>Calle F, 123,
+                        <p class='text pt-33'>Teusaquillo
                             <br> Bogota, Colombia.</p>
                         <div class="map-detail-closer">x</div>
                     </div>
